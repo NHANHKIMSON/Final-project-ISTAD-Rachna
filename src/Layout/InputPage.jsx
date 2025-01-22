@@ -1,5 +1,4 @@
 import React from 'react';
-
 function InputPage(props) {
     return (
         <div className="container mx-auto flex mt-8 px-6 sm:w-[320px] md:w-[768px] lg:w-[1024px]">
@@ -183,7 +182,6 @@ function InputPage(props) {
     </div>
   </main>
 </div>
-
     );
 }
 

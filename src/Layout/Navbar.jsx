@@ -4,11 +4,9 @@ import { FiMoon, FiSun } from 'react-icons/fi';
 
 function Navbar({ darkMode, toggleDarkMode }) {
     const [menuOpen, setMenuOpen] = useState(false);
-
     const toggleMenu = () => {
         setMenuOpen((prev) => !prev);
     };
-
     return (
         <div className="sticky top-0 z-50">
             <nav className="bg-pink-500 dark:bg-gray-950 w-full z-20 start-0 border-b border-gray-200 dark:border-gray-600">
@@ -17,7 +15,6 @@ function Navbar({ darkMode, toggleDarkMode }) {
                     <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
                         <img src="/img/logo_fordarkmood.png" className="h-8" alt="Logo" />
                     </a>
-
                     <div className="flex items-center space-x-4 md:order-2 rtl:space-x-reverse">
                         {/* Get Started Button */}
                         <button
@@ -123,6 +120,7 @@ function Navbar({ darkMode, toggleDarkMode }) {
                 </div>
             </nav>
         </div>
+        
     );
 }
 
