@@ -1408,7 +1408,6 @@ function Component(props) {
                 </div>
               </div>
 
-<<<<<<< HEAD
               {/* Categories with drop down */}
               <div className="container mx-auto">
                 {/* Header Section */}
@@ -1852,9 +1851,6 @@ function Component(props) {
                   </div>
                 </div>
               </div>
-=======
-              
->>>>>>> d363f797200da2f83586023a5428aa215366dbea
             </div>
             <div className="px-6">
               <h1
